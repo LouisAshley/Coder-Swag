@@ -13,6 +13,8 @@
 		F6168878220A400E00F69834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6168877220A400E00F69834 /* Assets.xcassets */; };
 		F616887B220A400E00F69834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6168879220A400E00F69834 /* LaunchScreen.storyboard */; };
 		F6168886220A466400F69834 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6168885220A466400F69834 /* CategoryCell.swift */; };
+		F6E71CAE220B266B0094C28E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E71CAD220B266B0094C28E /* Category.swift */; };
+		F6E71CB1220B2B630094C28E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E71CB0220B2B630094C28E /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F616887A220A400E00F69834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F616887C220A400E00F69834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6168885220A466400F69834 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		F6E71CAD220B266B0094C28E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		F6E71CB0220B2B630094C28E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		F616886F220A400E00F69834 /* Coder-Swag */ = {
 			isa = PBXGroup;
 			children = (
+				F6E71CAF220B2B540094C28E /* Services */,
 				F6168884220A45E200F69834 /* View */,
 				F6168883220A45DE00F69834 /* Model */,
 				F6168882220A45D700F69834 /* Controller */,
@@ -79,6 +84,7 @@
 		F6168883220A45DE00F69834 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F6E71CAD220B266B0094C28E /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				F6168885220A466400F69834 /* CategoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F6E71CAF220B2B540094C28E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F6E71CB0220B2B630094C28E /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				F6168873220A400E00F69834 /* CategoriesVC.swift in Sources */,
 				F6168871220A400E00F69834 /* AppDelegate.swift in Sources */,
 				F6168886220A466400F69834 /* CategoryCell.swift in Sources */,
+				F6E71CAE220B266B0094C28E /* Category.swift in Sources */,
+				F6E71CB1220B2B630094C28E /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
